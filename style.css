@@ -1,0 +1,454 @@
+* {
+	font-family: Arial;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+}
+
+.primeiro {
+	background-color: #eee;
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+}
+
+.campo_primeiro {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	width: 1200px;
+	margin-right: 100px;
+	height: 30px;
+	align-items: center;
+}
+
+.input_primeiro input {
+	width: 700px;
+	border: none;
+	color: blue;
+}
+
+.central a {
+	list-style: none;
+	text-decoration: none;
+	font-size: 13px;
+	color: blue;
+}
+
+.central a:hover {
+	color: green;
+}
+
+.menu_primeiro, .menu_primeiro ul {
+	display: flex;
+}
+
+.nav1 li, .op1, .op2, .op3 {
+	list-style: none;
+}
+
+.nav1 li {
+	margin-top: 20px;
+}
+
+.nav1 a, .op1, .op2, .op3 {
+	text-decoration: none;
+	color: white;
+	height: 90px;
+	width: 90px;
+	text-align: center;
+	border-radius: 45px;
+	font-size: 10px;
+	font-family: inherit;
+}
+
+.op1 {
+	background-color: red;
+}
+
+.op2 {
+	background-color: blue;
+	margin-left: 15px;
+}
+
+.op3 {
+	background-color: #39aae1;
+	margin-left: 15px;
+}
+
+.op1:hover, .op2:hover, .op3:hover {
+	background-color: orange;
+}
+
+.logo {
+	margin-top: 30px;
+}
+
+.nav2 {
+	margin-left: 40px;
+	margin-top: 10px;
+	width: 700px;
+}
+
+.nav2 a {
+	text-decoration: none;
+	font-size: 15px;
+	margin-left: 5px;
+}
+
+.nav2 ul {
+	width: 420px;
+}
+
+.op4 li {
+	margin-left: 23px;
+	font-style: 5px;
+}
+
+.nav2 a:hover {
+	color: blue;
+}
+
+.terceiro {
+	width:100%;
+	max-width:1250px;
+	margin:auto;
+}
+
+.slideshow {
+	height:335px;
+	background-color:#CCC;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+.slideshowarea {
+	width:100000px;
+	height:335px;
+	background-color:#DDD;
+	transition:all 1s;
+}
+.slide {
+	height:335px;
+	float:left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+}
+.slideinfo {
+	height:70px;
+	background-image:url('../images/slideshow_bg.png');
+	background-size: auto 70px;
+	margin-top:265px;
+}
+.slideinfo_titulo {
+	font-size:20px;
+	color:#FFF;
+	padding-top:15px;
+	padding-left: 20px;
+}
+.slideinfo_subtitulo {
+	font-size:13px;
+	color:#FFF;
+	padding-left: 20px;
+}
+.slidebolinhas {
+	position: absolute;
+	width:200px;
+	height:20px;
+	margin-left: 500px;
+}
+.bolinha {
+	width:20px;
+	height:20px;
+	float:left;
+	margin-right:5px;
+	cursor:pointer;
+	background-color:#CCC;
+	border-radius:10px;
+}
+
+.rad1 {
+	display: flex;
+}
+
+.rad {
+	margin-left: 32px;
+	margin-top: 85px;
+	color: blue;
+	font-size: 30px;
+}
+
+.nav3 {
+	margin-top: 80px;
+	margin-left: 190px;
+	display: flex;
+	justify-content: center;
+}
+
+.nav3 a {
+	margin-left: 10px;
+	height: 90px;
+	width: 90px;
+	border-radius: 45px;
+	background-color: rgb(183, 183, 183);
+	text-align: center;
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav3 ul {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 90px;
+}
+
+.nav3 li {
+	margin-top: 40px;
+	list-style: none;
+
+}
+.nav3 a:hover {
+	background-color: orange;
+}
+
+#geral {
+	display: flex;
+	justify-content: center;
+	background-color: #eee;
+}
+
+.cont {
+	display: flex;
+	justify-content: space-between;
+	background-color: #eee;
+	width: 1200px;
+}
+
+#geral section {
+	flex: 2;
+}
+
+#one a {
+	text-decoration: none;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+#primeiroartigo {
+	background-color: white;
+}
+
+.widget a {
+	text-decoration: none;
+}
+
+.widget a:hover {
+	text-decoration: underline;
+}
+
+article {
+	flex: 1;
+	width: auto;
+	margin-right: 20px;
+}
+
+#segundoartigo {
+	background-color: orange;
+}
+
+article h2 {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	color: #000000;
+	width: auto;
+	font-size: 1.75rem;
+	line-height: 1.25;
+	padding: 1rem;
+	font-style: normal;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.n_photo img {
+	height: 250px;
+	width: 330px;
+}
+
+.n_resume p {
+	padding: 10px;
+	margin-top: 60px;
+	height: 160px;
+}
+
+aside {
+	height: 720px;
+	width: 415px;
+}
+
+.a {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.a div {
+	background-color: #eee;
+	width: 195px;
+	height: 200px;
+	margin-bottom: 28px;
+}
+
+.quad h3 {
+	font-size: 1.375rem;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.quad a {
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+.quad h3:hover {
+	text-decoration: underline;
+}
+
+.quinto {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+}
+
+.oport {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 1200px;
+	background-color: white;
+}
+
+.q_desc a {
+	text-decoration: none;
+}
+
+.q_desc a:hover {
+	text-decoration: underline;
+}
+
+.cont1, .cont2, .cont3 {
+	margin-top: 40px;
+	padding: 13px;
+}
+
+.quinto h3 {
+	color: #36A9E1;
+	padding-top: 10px;
+}
+
+.quinto h3, .q_desc {
+	padding-left: 10px;
+}
+
+.q_photo2 {
+	margin-top: 80px;
+}
+
+.q_desc {
+	margin-bottom: 90px;
+}
+
+.penultimo {
+	display: flex;
+	justify-content: center;
+	background-color: #36A9E1;
+}
+
+.pencont {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #36A9E1;
+	width: 1200px;
+	margin-bottom: 25px;
+}
+
+.p_photo {
+	float: left;
+}
+
+.p_desc {
+	padding-left: 30px;
+	float: right;
+}
+
+footer {
+	background-color: rgb(30, 54, 114);
+	display: flex;
+	justify-content: center;
+}
+
+.cont_footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(30, 54, 114);
+	width: 1200px;
+}
+
+footer li, footer a {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer h4 {
+	color: #36A9E1;
+}
+
+.not_desc {
+	margin-right: 10px;
+}
+
+.footer_not {
+	margin-right: 150px;
+	margin-top: 30px;
+}
+
+.ult_logo {
+	margin-top: 30px;
+}
+
+.footer_info {
+	margin-right: 350px;
+	margin-top: 30px;
+}
+
+.not_desc li {
+	margin-right: 30px;
+}
+
+.link a {
+	color: blue;
+}
+
+.link a:hover {
+	text-decoration: underline;
